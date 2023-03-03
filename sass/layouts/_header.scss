@@ -1,0 +1,61 @@
+.header {
+    background: $color-light;
+    padding: 18px 0 10px 0;
+    color: $color-dark-liver;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+        color: $color-dark-liver;
+    }
+}
+
+.header__logo {
+    min-width: 109px;
+}
+
+.logo__text {
+    position: absolute;
+    font-size: 12px;
+}
+
+.navigation {
+    display: flex;
+    
+    li {
+        font-family: 'Roboto', sans-serif;
+        list-style: none;
+        padding: 0 32px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+.menu {
+    display: flex;
+    
+    li {
+        list-style: none;
+        padding: 0 10px;
+    }
+}
+
+.ico_heart {
+    position: relative;
+}
+
+.count {
+    position: absolute;
+    width: 13px;
+    height: 13px; 
+    background-color: $color-desert-sand;  
+    border-radius: 50%;
+    text-align: center;
+    font-size: 8px;
+    top: -5px;
+    right: -5px;
+}

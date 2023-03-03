@@ -1,0 +1,36 @@
+.socials__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 83px;
+    margin-bottom: 85px;
+}
+
+.socials__content {
+    padding-top: 135px;
+}
+
+.socials__content p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 29px;
+    margin-bottom: 115px;
+    color: $color-brand;
+}
+
+.links li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.socials__gallery {
+    display: flex;
+    align-items: center;
+    max-width: 629px;
+}
+
+.gallery__column-1 {
+    :first-child {
+        margin-bottom: 6px;
+    }
+}

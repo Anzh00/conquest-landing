@@ -1,0 +1,27 @@
+button {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    width: 205px;
+    height: 64px;
+    color: $color-light;
+    background-color: $color-brand;
+    padding: 26px 38px 27px;
+    border: none;
+    transition: all .3s;
+}
+
+.button_colored {
+    background-color: $color-features;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: $color-dark-liver;
+}
+
+.button_colored:hover {
+    background-color: $color-dark-vanilla;
+}

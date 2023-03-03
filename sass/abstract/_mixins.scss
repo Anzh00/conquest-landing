@@ -1,0 +1,14 @@
+@mixin line($length: 50px, $left: 80px) {
+    content: "";
+    position: absolute;
+    top: 10px;
+    width: $length;
+    height: 0px;
+    left: $left;
+    border-top: 1px solid $color-middle-grey;
+}
+
+@mixin fontPrata($font-size: 14px) {
+    font-size: $font-size;
+    font-family: 'Prata', serif;
+}

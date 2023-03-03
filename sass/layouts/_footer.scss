@@ -1,0 +1,56 @@
+.footer {
+    background-color: $color-brand;
+}
+
+.footer__wrapper {
+    background-color: $color-brand;
+    color: #FFFFFFBF;
+}
+
+.layout-4-column {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__logo {
+    color: $color-light;
+    float: right;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.14em;
+    margin-bottom: 8px;
+}
+
+.contacts span {
+    display: block;
+    margin-bottom: 14px;
+}
+
+.column {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-size: 12px;
+    font-family: 'Roboto';
+}
+
+.caption {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.07em;
+    color: $color-light;
+}
+
+.column li {
+    margin-bottom: 10px;
+    &:first-child {
+        margin-bottom: 20px;
+    }
+}
+
+.column a {
+    color: #FFFFFFBF;
+}
